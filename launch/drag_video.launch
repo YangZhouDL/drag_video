@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- <node pkg="drag_video" type="drag_ros" name="drag_zedm" output="screen" args="zedm">
+        <param name="fps" type="int" value="15"/>        
+    </node> -->
+
+    <node pkg="drag_video" type="drag_ros" name="drag_realsense_dis" output="screen" args="realsense_dis">
+        <param name="fps" type="int" value="30"/>        
+    </node>
+
+    <!-- <node pkg="drag_video" type="drag_ros" name="drag_realsense_undis" output="screen" args="realsense_undis">
+        <param name="fps" type="int" value="30"/>        
+    </node> -->
+
+    <node pkg="drag_video" type="drag_ros" name="drag_realsense_dis_rect" output="screen" args="realsense_dis_rect">
+        <param name="fps" type="int" value="30"/>        
+    </node>
+</launch>
